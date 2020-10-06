@@ -1,0 +1,30 @@
+{
+  "name": "ssd-oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasiru123/SSD-OAuth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasiru123/SSD-OAuth/issues"
+  },
+  "homepage": "https://github.com/yasiru123/SSD-OAuth#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "googleapis": "^61.0.0",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
